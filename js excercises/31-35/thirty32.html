@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let current_user = ['abdul','rehman','musab','duraiz','taimoor','saad','haseeb']
+let new_user = ['ahmed','faizan','afnan','murtaza','abdullah','saad','haseeb']
+for(let j=0,i=0;j<new_user.length,i<current_user.length;j++,i++){
+    if(current_user[i]===new_user[j]){
+        console.log("The username is already taken!")
+
+    }
+    else if(current_user[i]!==new_user[j]){
+        console.log("This username is available!")
+        
+    }
+    else{console.log("please try another name!")
+break;}
+}
+
+console.log(current_user,new_user)
+
+    </script>
+</body>
+</html>
